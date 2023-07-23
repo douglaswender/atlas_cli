@@ -6,6 +6,10 @@ add o PATH da pasta /bin na sua variável de ambiente
 
 - Caso esteja em SO diferente de MacOS, necessita fazer um build para o seu sistema, tenha o dart sdk instalado na sua máquina e rode o seguinte comando dentro da pasta atlas
 
+# Windows
+`dart compile exe bin/main.dart -o bin/atlas.exe`
+
+# Mac
 `dart compile exe bin/main.dart -o bin/atlas`
 
 # Para utilização 
